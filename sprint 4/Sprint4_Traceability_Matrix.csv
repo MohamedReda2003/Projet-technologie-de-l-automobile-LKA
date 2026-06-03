@@ -1,0 +1,20 @@
+﻿ID Exigence,Description,Niveau ASIL,User Story,Test Case,Niveau Test,Résultat Attendu,Résultat Obtenu,Statut
+REQ-LKA-001,Détection lignes de voie,QM,US-101,TC-001,MiL,Précision < 5cm,—,⏳ Non testé
+REQ-LKA-001,Détection lignes de voie,QM,US-102,TC-002,MiL,Taux détection > 99%,—,⏳ Non testé
+REQ-LKA-001,Détection lignes de voie,QM,US-103,TC-003,MiL,Lignes détectées,—,⏳ Non testé
+REQ-LKA-002,Correction écart latéral < 0.3m en < 2s,ASIL-B,US-201,TC-004,MiL,Convergence < 2s,0.26s,✅ Validé
+REQ-LKA-002,Correction écart latéral < 0.3m en < 2s,ASIL-B,US-202,TC-005,MiL,Erreur < 0.3m,0.003m,✅ Validé
+REQ-LKA-002,Correction écart latéral < 0.3m en < 2s,ASIL-B,US-301,TC-006,MiL,Modèle stable,Stable,✅ Validé
+REQ-LKA-002,Correction écart latéral < 0.3m en < 2s,ASIL-B,US-302,TC-007,MiL,y < 0.3m en 0.26s,✅ 0.26s,✅ Validé
+REQ-LKA-003,Limitation braquage ≤ ±5°,ASIL-B,US-201,TC-008,MiL,δ ≤ ±5°,40.51° max,⚠️ À ajuster
+REQ-LKA-003,Limitation braquage ≤ ±5°,ASIL-B,US-203,TC-009,MiL,Marges > 6dB/30°,✅ OK,✅ Validé
+REQ-LKA-003,Limitation braquage ≤ ±5°,ASIL-B,US-401,TC-010,SiL,Saturation OK,✅ OK,✅ Validé
+REQ-LKA-004,Désactivation mains hors volant,ASIL-D,US-501,TC-011,HiL,Timeout 15s,—,⏳ Non testé
+REQ-LKA-004,Désactivation mains hors volant,ASIL-D,US-503,TC-012,HiL,Alertes progressives,—,⏳ Non testé
+REQ-LKA-005,Robustesse vent latéral < 0.2m (15 m/s),ASIL-B,US-304,TC-013,MiL,Écart < 0.2m,0.0032m,✅ Validé
+REQ-LKA-005,Robustesse vent latéral < 0.2m (15 m/s),ASIL-B,US-402,TC-014,SiL,Code stable,✅ OK,✅ Validé
+REQ-LKA-005,Robustesse vent latéral < 0.2m (15 m/s),ASIL-B,US-403,TC-015,SiL,Rejet perturbation,✅ OK,✅ Validé
+REQ-LKA-005,Robustesse vent latéral < 0.2m (15 m/s),ASIL-B,US-504,TC-016,HiL,Robustesse validée,—,⏳ Non testé
+REQ-LKA-006,Performance virage erreur < 0.15m (R=250m),ASIL-B,US-303,TC-017,MiL,Erreur < 0.15m,0.15m,✅ Validé
+REQ-LKA-006,Performance virage erreur < 0.15m (R=250m),ASIL-B,US-402,TC-018,SiL,Code stable,✅ OK,✅ Validé
+REQ-LKA-006,Performance virage erreur < 0.15m (R=250m),ASIL-B,US-403,TC-019,SiL,Suivi trajectoire,✅ OK,✅ Validé
