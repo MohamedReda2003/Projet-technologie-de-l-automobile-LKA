@@ -116,10 +116,8 @@ Les simulations réalisées sous Scilab/Xcos permettent d'observer :
 
 Projet réalisé par des étudiants en **Génie Mécatronique** — ENSA Tétouan, Maroc.
 
-| Membre | Rôle |
-|--------|------|
-| **Mohamed Reda** | Modélisation & Contrôle |
-| *(autres contributeurs)* | *(voir [Contributors](https://github.com/MohamedReda2003/Projet-technologie-de-l-automobile-LKA/graphs/contributors))* |
+
+*(voir [Contributors](https://github.com/MohamedReda2003/Projet-technologie-de-l-automobile-LKA/graphs/contributors))*
 
 ---
 
